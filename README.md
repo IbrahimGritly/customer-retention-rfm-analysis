@@ -84,16 +84,25 @@ Customers were segmented using **Recency, Frequency, and Monetary (RFM)** analys
 
 customer-retention-rfm-analysis/
 │
+├── assets/
+│   ├── monthly_revenue_p3.png
+│   ├── retention_p3.png
+│   ├── revenu_customer_ecommerce.png
+├   └── revenue_segment_p3.png
+│
 ├── python/
 │   ├── commerce_data_cleaning.ipynb
 │   ├── ecommerce_eda.ipynb
 │   └── ecommerce_rfm.ipynb
 │
 ├── report/
-│   └── ecommerce_project_report.pdf
-│
-├── report/
 │   └── Customer_Retention_RFM_Report.pdf
 │
 └── README.md
 
+---
+
+## Deliverables
+- **Python** → [python/](python/)
+- **Project Report** → [report/](report/)
+- **Dashboard Screenshots** → [assets/](assets/)
