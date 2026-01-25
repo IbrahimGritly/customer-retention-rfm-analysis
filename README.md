@@ -1,2 +1,99 @@
-# customer-retention-rfm-analysis
-EDA and RFM analysis of an online e-commerce dataset
+# Customer Retention & RFM Analysis
+
+## Project Overview
+This project analyzes online retail customer behavior to understand **customer retention**, **purchase patterns**, and **customer value**.  
+The analysis focuses on identifying churn patterns and high-value customer segments to support data-driven marketing and retention strategies.
+
+---
+
+## Business Objectives
+- How long do customers remain active after their first purchase?
+- Which customer segments generate the most revenue?
+- Where should retention and marketing efforts be focused?
+
+---
+
+## Tools Used
+- **Python**: pandas, matplotlib, seaborn  
+- **Techniques**: Cohort Analysis, RFM Segmentation, Exploratory Data Analysis  
+
+---
+
+## Analysis Summary
+
+### 1) Data Cleaning & Customer Classification
+- Cleaned and prepared transactional data
+- Created revenue metrics
+- Classified customers into:
+  - One-time buyers  
+  - Repeat buyers (≤ 10 purchases)  
+  - Loyal customers  
+
+**Insight:**
+- Most customers are repeat buyers, indicating moderate but consistent engagement.
+
+---
+
+### 2) Cohort Analysis (Customer Retention)
+Customers were grouped by their **first purchase month** to track retention over time.
+
+**Key Findings:**
+- Retention drops sharply after the first month across all cohorts
+- Most customers do not remain active beyond 3–4 months
+- Newer cohorts show slightly improved retention
+- Early churn presents a major opportunity for targeted retention campaigns
+
+**Retention Heatmap**
+![Cohort Retention Heatmap](assets/cohort_retention_heatmap.png)
+
+---
+
+### 3) Customer Geography & Seasonality
+- **90% of total sales come from the UK**, followed by Germany and France
+- Sales increase starting in **August** and peak in **October**, showing strong seasonality
+
+---
+
+### 4) RFM Analysis (Customer Value Segmentation)
+Customers were segmented using **Recency, Frequency, and Monetary (RFM)** analysis.
+
+**Segments Identified:**
+- Loyal Customers  
+- Potential Loyalists  
+- Others  
+- At Risk  
+
+**Key Insights:**
+- Loyal Customers contribute approximately **11.6M** in revenue
+- Potential Loyalists represent growth opportunities
+- At Risk customers contribute the least revenue (~1M)
+- No “Champion” customers were identified, highlighting low high-frequency repeat behavior
+
+---
+
+## Business Recommendations
+- Prioritize retention strategies for Loyal Customers to protect revenue
+- Target Potential Loyalists with personalized campaigns to increase frequency
+- Address early churn with incentives for first-time and repeat buyers
+- Align marketing efforts with seasonal sales peaks (August–October)
+- Focus geographic strategies on high-revenue regions (UK, Germany, France)
+
+---
+
+## 📂 Repository Structure
+
+customer-retention-rfm-analysis/
+│
+├── python/
+│   ├── commerce_data_cleaning.ipynb
+│   ├── ecommerce_eda.ipynb
+│   └── ecommerce_rfm.ipynb
+│
+├── report/
+│   └── ecommerce_project_report.pdf
+│
+├── report/
+│   └── Customer_Retention_RFM_Report.pdf
+│
+└── README.md
+
