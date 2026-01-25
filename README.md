@@ -44,7 +44,7 @@ Customers were grouped by their **first purchase month** to track retention over
 - Early churn presents a major opportunity for targeted retention campaigns
 
 **Retention Heatmap**
-![Cohort Retention Heatmap](assets/cohort_retention_heatmap.png)
+![Cohort Retention Heatmap](assets/retention_p3.png)
 
 ---
 
@@ -57,13 +57,13 @@ Customers were grouped by their **first purchase month** to track retention over
 ### 4) RFM Analysis (Customer Value Segmentation)
 Customers were segmented using **Recency, Frequency, and Monetary (RFM)** analysis.
 
-**Segments Identified:**
+**Segments Identified**
 - Loyal Customers  
 - Potential Loyalists  
 - Others  
 - At Risk  
 
-**Key Insights:**
+**Key Insights**
 - Loyal Customers contribute approximately **11.6M** in revenue
 - Potential Loyalists represent growth opportunities
 - At Risk customers contribute the least revenue (~1M)
