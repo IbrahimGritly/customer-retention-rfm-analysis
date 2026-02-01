@@ -4,6 +4,8 @@
 This project analyzes online retail customer behavior to understand **customer retention**, **purchase patterns**, and **customer value**.  
 The analysis focuses on identifying churn patterns and high-value customer segments to support data-driven marketing and retention strategies.
 
+**Data:** https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci 
+
 ---
 
 ## Business Objectives
@@ -80,7 +82,7 @@ Customers were segmented using **Recency, Frequency, and Monetary (RFM)** analys
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 Healthcare-No-Shows-Analysis/
@@ -90,12 +92,6 @@ Healthcare-No-Shows-Analysis/
 │   ├── retention_p3.png
 │   ├── revenu_customer_ecommerce.png
 │   └── revenue_segment_p3.png
-│
-├── data/
-│   ├── cleaned/          
-│       ├── Medical-Noshows-May-2016-Cleaned.csv      # Cleaned CSV used for SQL & Tableau
-│   └── raw/              
-│       ├── Medical-Noshows-May-2016.csv              # Original dataset
 │
 ├── python/
 │   ├── commerce_data_cleaning.ipynb
