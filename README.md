@@ -82,13 +82,20 @@ Customers were segmented using **Recency, Frequency, and Monetary (RFM)** analys
 
 ## 📂 Repository Structure
 
-customer-retention-rfm-analysis/
+```
+Healthcare-No-Shows-Analysis/
 │
 ├── assets/
 │   ├── monthly_revenue_p3.png
 │   ├── retention_p3.png
 │   ├── revenu_customer_ecommerce.png
-├   └── revenue_segment_p3.png
+│   └── revenue_segment_p3.png
+│
+├── data/
+│   ├── cleaned/          
+│       ├── Medical-Noshows-May-2016-Cleaned.csv      # Cleaned CSV used for SQL & Tableau
+│   └── raw/              
+│       ├── Medical-Noshows-May-2016.csv              # Original dataset
 │
 ├── python/
 │   ├── commerce_data_cleaning.ipynb
@@ -96,9 +103,10 @@ customer-retention-rfm-analysis/
 │   └── ecommerce_rfm.ipynb
 │
 ├── report/
-│   └── Customer_Retention_RFM_Report.pdf
+│   └── ecommerce project report.pdf
 │
 └── README.md
+```
 
 ---
 
@@ -106,3 +114,10 @@ customer-retention-rfm-analysis/
 - **Python** → [python/](python/)
 - **Project Report** → [report/](report/)
 - **Dashboard Screenshots** → [assets/](assets/)
+
+---
+
+## Author
+
+**Ibrahim M. Hassan**
+Data Analytics Portfolio Project
